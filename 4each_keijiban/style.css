@@ -1,0 +1,125 @@
+#logo img {
+	width: 220px;
+}
+
+#maincontent {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+.link ul li {
+	float: left;
+	color: white;
+	list-style: none;
+	line-height: 50px;
+	margin-left: 80px;
+}
+
+
+.left_box {
+	float:left;
+	width: 65%;
+}
+
+h1 {
+	clear: left;
+	font-size: 30px;
+	padding-left: 5px;
+	border-left: black solid 5px;
+	border-bottom: black solid 3px;
+}
+
+.form_box {
+	border: lightgray solid 2px;
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	background-color: whitesmoke;
+	border-radius: 8px;
+}
+
+.form_box h3 {
+	margin-left: 10px;
+	border-left: red solid 3px;
+}
+
+.form {
+	margin-bottom: 15px;
+	border-radius: 8px;
+}
+
+.text,textarea {
+	border: 1px solid #dfdfdf;
+	border-radius: 2px;
+}
+
+.button {
+	border: 1px solid lightgray;
+	padding: 4px 10px;
+	border-bottom: solid 2px gray;
+	color: white;
+	border-radius: 5px;
+	background-color: dimgray;
+	border-bottom: solid 2px gray;
+}
+
+
+.kiji {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: lightgray solid 2px;
+	width: 100%;
+	background-color: whitesmoke;
+	border-radius: 8px;
+	padding-left:5px;
+}
+
+.kiji h3 {
+	border-bottom: lightgray solid 2px;
+	margin:5px;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+.contents{
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.handlename{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+.right_box {
+	float: right;
+	width: 35%;
+}
+
+h4 {
+	margin: 5px;
+	border-bottom: dotted gray 3px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+p {
+	margin-left: 50px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
