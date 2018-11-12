@@ -3,11 +3,11 @@ package Main;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MapSample {
+public class MapSample{
 
 
 		public static void main(String[] arge){
-			Map<String,String>map = new HashMap<String,String>();
+			Map<String,String> map = new HashMap<String,String>();
 
 		//値のセットはputメソッドを利用
 			map.put("key1","value1");
@@ -20,17 +20,19 @@ public class MapSample {
 			String value = map.get("key1");//value1が取得できる
 			System.out.println(value);
 
-			String valueNULL = map.get("Key6");//存在しないkeyの場合はnull
-			System.out.println(valueNULL);
+			String valueNull = map.get("Key6");//存在しないkeyの場合はnull
+			System.out.println(valueNull);
 
-			//mapに該当するkeyが存在するか否かチェックすることも可
+			//mapに該当するkeyが存在するか否かチェックすることも可能
 			if(map.containsKey("key1")){
+				System.out.println("key1は存在します");
+			}else{
 				System.out.println("key1は存在しません");
 			}
 
 			//拡張for文を利用してすべて情報を取得する
-			for(Map.Entry<String,String>a : map.entrySet()){
-				System.out.println(a.getKey()+":"+a.getValue());
+			for(Map.Entry<String,String> e : map.entrySet()){
+				System.out.println(e.getKey() + ":" + e.getValue());
 			}
 		}
 	}

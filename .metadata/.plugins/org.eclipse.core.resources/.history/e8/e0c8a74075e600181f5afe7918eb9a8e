@@ -1,0 +1,71 @@
+package jp.co.internous.action;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+Person taro =new Person();
+taro.name="山田太郎";
+taro.age=20;
+
+	System.out.println(taro.name);
+	System.out.println(taro.age);
+	taro.talk();
+	taro.walk();
+	System.out.println();
+
+Person jiro =new Person();
+jiro.name="木村次郎";
+jiro.age=18;
+
+	System.out.println(jiro.name);
+	System.out.println(jiro.age);
+	System.out.println();
+
+Person hanako =new Person();
+hanako.name="鈴木花子";
+hanako.age=16;
+
+	System.out.println(hanako.name);
+	System.out.println(hanako.age);
+	System.out.println();
+
+Person natsumi =new Person();
+natsumi.name="大竹夏実";
+natsumi.age=26;
+natsumi.phoneNumber="000-0000-0000";
+natsumi.address="xxx@xxxxx";
+
+	System.out.println(natsumi.name);
+	System.out.println(natsumi.age);
+	System.out.println(natsumi.phoneNumber);
+	System.out.println(natsumi.address);
+	System.out.println();
+
+Robot aibo =new Robot();
+aibo.name="aibo";
+
+	aibo.talk();
+	aibo.walk();
+	aibo.run();
+	System.out.println();
+
+
+Robot asimo =new Robot();
+asimo.name="aibo";
+
+	asimo.talk();
+	asimo.walk();
+	asimo.run();
+	System.out.println();
+
+
+Robot pepper =new Robot();
+pepper.name="aibo";
+
+	pepper.talk();
+	pepper.walk();
+	pepper.run();
+		System.out.println();
+	}
+}
