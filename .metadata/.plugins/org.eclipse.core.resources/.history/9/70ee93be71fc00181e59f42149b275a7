@@ -1,0 +1,6 @@
+package com.internousdev.login.dao;
+public class LoginDTO {
+	private int id;
+	private String name;
+	private
+}
