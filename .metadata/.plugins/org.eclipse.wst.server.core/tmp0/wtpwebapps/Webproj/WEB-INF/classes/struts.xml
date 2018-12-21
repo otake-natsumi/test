@@ -21,12 +21,16 @@
 </action>
 
 <action name="InquiryAction" class="com.internousdev.webproj.action.InquiryAction" method="execute">
-	<result name="success">inquiry</result>
+	<result name="success">inquiry.jsp</result>
 </action>
 
 <action name="InquiryCompleteAction" class="com.internousdev.webproj.action.InquiryCompleteAction" method="execute">
 	<result name="success">InquiryComplete.jsp</result>
 </action>
 
+<action name="TestAction" class="com.internousdev.webproj.action.TestAction" method="execute">
+	<result name="success">test.jsp</result>
+
+</action>
 </package>
 </struts>
