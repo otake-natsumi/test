@@ -37,12 +37,15 @@
     <url-pattern>/HelloServlet/TestServlet</url-pattern>
   </servlet-mapping>
 
-	<servlet>
-		<servlet-name>MySQL</servlet-name>
-		<servlet-class>MySQLSwevlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>MySQL</servlet-name>
-		<url-pattern>/HelloServlet/MySQLServlet</url-pattern>
-	</servlet-mapping>
+  <servlet>
+    <servlet-name>MySQL</servlet-name>
+    <servlet-class>MySQLServle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MySQL</servlet-name>
+    <url-pattern>/HelloServlet/MySQLServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
+
+
+
