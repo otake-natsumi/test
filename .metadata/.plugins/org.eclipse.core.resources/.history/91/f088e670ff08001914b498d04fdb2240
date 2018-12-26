@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HElloStruts</title>
+</head>
+<body>
+
+	<h1>HelloStruts!</h1>
+	<br>
+	<h3>MySQLと接続できます。</h3>
+
+</body>
+</html>
