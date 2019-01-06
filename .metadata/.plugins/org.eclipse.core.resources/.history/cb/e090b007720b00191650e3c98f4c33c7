@@ -1,0 +1,8 @@
+package com.internousdev.webproj2.action;
+
+import com.internousdev.webproj2.dao.InquiryCompleteDAO;
+import com.internousdev.webproj2.xwork2.ActionSupport;
+
+public class InquiryCompleteAction {
+
+}

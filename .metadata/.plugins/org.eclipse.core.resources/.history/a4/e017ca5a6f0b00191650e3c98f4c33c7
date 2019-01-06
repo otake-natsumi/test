@@ -1,0 +1,10 @@
+package com.internousdev.webproj2.dao;
+
+public class InquilyCompletDAO{
+	public int insert(String name, String qtype, String body){
+		int ret=0;
+
+	}
+
+
+}

@@ -4,4 +4,18 @@
 <fullyQualifiedTypeName name="javafx.scene.layout.Priority"/>
 <fullyQualifiedTypeName name="java.sql.BatchUpdateException"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.internous.webproj4.dao.HelloStrutsDAO"/>
+<fullyQualifiedTypeName name="com.internous.webproj4.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.dto.InquiryDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.HelloStrutsDTO"/>
 </qualifiedTypeNameHistroy>

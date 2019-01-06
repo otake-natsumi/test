@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE struts PUBLIC
-"-//apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
 "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
@@ -25,7 +25,7 @@
 </action>
 
 <action name="InquiryCompleteAction" class="com.internousdev.webproj.action.InquiryCompleteAction" method="execute">
-	<result name="success">InquiryComplete.jsp</result>
+	<result name="success">inquiryComplete.jsp</result>
 </action>
 
 <action name="TestAction" class="com.internousdev.webproj.action.TestAction" method="execute">
