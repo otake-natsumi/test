@@ -1,0 +1,7 @@
+127.0.0.1 - - [16/Jan/2019:08:07:56 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:08:07:58 +0900] "GET /WebProj5/ HTTP/1.1" 200 980
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:08:07:59 +0900] "POST /WebProj5/InquiryAction.action HTTP/1.1" 200 949
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:08:08:02 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:08:08:02 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:08:10:43 +0900] "POST /WebProj5/InquiryAction.action HTTP/1.1" 200 949
+0:0:0:0:0:0:0:1 - - [16/Jan/2019:08:10:45 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 867
