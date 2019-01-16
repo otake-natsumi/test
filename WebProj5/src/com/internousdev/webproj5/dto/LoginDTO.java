@@ -17,5 +17,4 @@ package com.internousdev.webproj5.dto;
 	public void setPassword(String password){
 		this.password = password;
 	}
-
 }
