@@ -57,8 +57,15 @@
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.wizards.buildpaths.NewVariableEntryDialog">
+		<item value="1024" key="DIALOG_WIDTH"/>
+		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
+		<item value="457" key="DIALOG_HEIGHT"/>
+		<item value="34" key="DIALOG_X_ORIGIN"/>
+		<item value="-14" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="7" key="index"/>
+		<item value="2" key="index"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="true" key="create_package_info_java"/>

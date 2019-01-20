@@ -37,7 +37,7 @@
 		}
 		#header{
 			width: 100%;
-			heighat: 80px;
+			height: 80px;
 			background-color: black;
 		}
 		#main{
