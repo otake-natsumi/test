@@ -23,5 +23,7 @@
 			<result name="error">home.jsp</result>
 		</action>
 
+
+
 	</package>
 </struts>
