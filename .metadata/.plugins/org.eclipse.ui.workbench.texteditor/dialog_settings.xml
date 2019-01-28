@@ -12,14 +12,14 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="loginUserId"/>
+			<item value="BuyItemAction"/>
+			<item value="buyItemAction"/>
 			<item value="com.internousdev.template.action"/>
 			<item value="com.internous.template.action"/>
 			<item value="UserCreateAction"/>
 			<item value="select"/>
 			<item value="Inquiry"/>
-			<item value="Inquily"/>
-			<item value="HelloStrutsAction"/>
-			<item value="index"/>
 		</list>
 		<list key="replacehistory">
 			<item value="com.internousdev.template.action"/>

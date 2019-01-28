@@ -42,7 +42,7 @@
 		}
 		#main{
 			width: 100%;
-			heigth: 500px;
+			height: 500px;
 			text-align: center;
 		}
 		#footer{
@@ -59,7 +59,7 @@
 	</div>
 	<div id="main">
 		<div id="top">
-			<p>BuyItem></p>
+			<p>BuyItem</p>
 		</div>
 		<div>
 		<s:form action="BuyItemAction">
@@ -100,7 +100,7 @@
 
 			<div>
 				<span>前画面に戻る場合は</span>
-				<a href='<s:url action="HomeAction"/>'>こちらから</a>
+				<a href='<s:url action="HomeAction"/>'>こちら</a>
 			</div>
 		</div>
 	</div>
