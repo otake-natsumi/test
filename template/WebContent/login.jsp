@@ -19,9 +19,10 @@
 			padding: 0;
 			line-height: 1.6;
 			letter-spacing: 1px;
-			font-family: verdana,Helvetica,sans-serif;
+			font-family: Verdana,Helvetica,sans-serif;
+			font-size:12px;
 			color: #333;
-			background-color: #fff;
+			background: #fff;
 		}
 		table{
 			text-align: center;
@@ -37,15 +38,15 @@
 		#header{
 			width: 100%;
 			height: 80px;
-			backgroud-color: black;
+			background-color: black;
 		}
 		#main{
-			widht: 100%;
+			width: 100%;
 			height: 500px;
 			text-align: center;
 		}
 		#footer{
-			widht:100%;
+			width:100%;
 			height: 80px;
 			background-color: black;
 			clear: both;
@@ -63,14 +64,14 @@
 		<div>
 			<h3>商品を購入する際にはログインをお願いします。</h3>
 			<s:form action="LoginAction">
-				<s:textfield name="loginUserId" />
-				<s:password name="loginPassword" />
+				<s:textfield name="loginUserId" placeholder="ユーザーID" />
+				<s:password name="loginPassword" placeholder="パスワード" />
 				<s:submit value="ログイン"/>
 			</s:form>
-			<br>
+			<br/>
 			<div>
 				<span>新規ユーザー登録は
-					<a href='<s:url action="UserCreateAction"/>'>こちらから</a>
+					<a href='<s:url action="UserCreateAction" />'>こちら</a>
 				</span>
 			</div>
 		</div>

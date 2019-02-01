@@ -10,5 +10,4 @@ public class DateUtil {
 
 		return simpleDateFormat.format(date);
 	}
-
 }

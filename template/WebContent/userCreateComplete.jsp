@@ -23,7 +23,7 @@
 		font-family: Verdana, Helvetica, sans-serif;
 		font-size: 12px;
 		color: #333;
-		background-color: #fff;
+		background: #fff;
 	}
 	table{
 		text-align: center;

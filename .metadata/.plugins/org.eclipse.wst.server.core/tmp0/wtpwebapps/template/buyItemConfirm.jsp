@@ -19,14 +19,14 @@
 			padding: 0;
 			line-height: 1.6;
 			letter-spacing: 1px;
-			font-family:Verdana,Helvetica,sans-serif;
+			font-family: Verdana, Helvetica, sans-serif;
 			font-size: 12px;
 			color: #333;
 			background-color: #fff;
 		}
 		table{
 			text-align: center;
-			margin: fff;
+			margin: 0 auto;
 		}
 	/* ==========ID LAYOUT========== */
 		#top{
