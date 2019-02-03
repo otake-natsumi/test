@@ -5,8 +5,8 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta http-equiv="Content-Style" content="text/css" />
-	<meta http-equiv="Content-Script" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -18,10 +18,11 @@
 			margin: 0;
 			padding: 0;
 			line-height: 1.6;
-			letter-family: Verdana, Helvetica, sans-serif;
+			letter--spacing: 1px;
+			font-family: Verdana, Helvetica, sans-serif;
 			font-size: 12px;
 			color: #333;
-			background-color: #fff;
+			background: #fff;
 		}
 		table{
 			text-align: center;
@@ -62,7 +63,7 @@
 			<p>BuyItemComplete</p>
 		</div>
 		<div>
-			<p>購入手続きが完了いたしました。</p>
+			<p>購入手続きが完了致しました。</p>
 			<div>
 				<a href='<s:url action="MyPageAction" />'>マイページ</a>
 				<span>から購入履歴の確認が可能です。</span>

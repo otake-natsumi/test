@@ -10,7 +10,7 @@
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-	<title>buyItemConfirm画像</title>
+	<title>buyItemConfirm画面</title>
 
 	<style type="text/css">
 	/* ==========TAG LAYOUT========== */
@@ -22,7 +22,7 @@
 			font-family: Verdana, Helvetica, sans-serif;
 			font-size: 12px;
 			color: #333;
-			background-color: #fff;
+			background: #fff;
 		}
 		table{
 			text-align: center;
@@ -41,7 +41,7 @@
 		}
 		#main{
 			width: 100%;
-			height: 80px;
+			height: 500px;
 			text-align: center;
 		}
 		#footer{
@@ -70,14 +70,14 @@
 				</tr>
 				<tr>
 					<td>値段</td>
-					<td><s:property value="session.buy_price" />
+					<td><s:property value="session.buyItem_price" />
 						<span>円</span>
 					</td>
 				</tr>
 				<tr>
 					<td>購入個数</td>
 					<td><s:property value="session.stock" />
-						<span>円</span>
+						<span>個</span>
 					</td>
 				</tr>
 				<tr>
