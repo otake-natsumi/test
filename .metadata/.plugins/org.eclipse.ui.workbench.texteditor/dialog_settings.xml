@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="MyPageDAO" key="selection"/>
+		<item value="home.jsp" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="home.jsp"/>
+			<item value="com.internousdev.ecsite"/>
 			<item value="MyPageDAO"/>
 			<item value="user_buy_item_transaction"/>
 			<item value="buyItemInfo"/>
 			<item value="buyItemeInfo"/>
 			<item value="item_name,item_price,item_stock"/>
 			<item value="user_buy"/>
-			<item value="user_buy_item_"/>
-			<item value="ecsite"/>
 		</list>
 		<list key="replacehistory">
 			<item value="com.internousdev.template.action"/>
