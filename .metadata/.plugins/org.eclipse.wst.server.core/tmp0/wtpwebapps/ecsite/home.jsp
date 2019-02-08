@@ -48,7 +48,7 @@
 			clear: both;
 		}
 		#text-center{
-			display: line-block;
+			display: inline-block;
 			text-align: center;
 		}
 	</style>
