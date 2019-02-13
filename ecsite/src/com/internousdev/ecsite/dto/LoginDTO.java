@@ -2,9 +2,9 @@ package com.internousdev.ecsite.dto;
 
 public class LoginDTO {
 	public String loginId;
-	public int id;
-	public String itemName;
-	public String itemPrice;
+	public String loginPassword;
+	public String userName;
+	public boolean loginFlg;
 
 	public String getLoginId(){
 		return loginId;
@@ -13,24 +13,25 @@ public class LoginDTO {
 		this.loginId = loginId;
 	}
 
-	public String getItemName(){
-		return itemName;
+	public String getLoginPassword(){
+		return loginPassword;
 	}
-	public void setItemName(String itemName){
-		this.itemName = itemName;
-	}
-
-	public String getItemPrice(){
-		return itemPrice;
-	}
-	public void setItemPrice(String itemPrice){
-		this.itemPrice = itemPrice;
+	public void setLoginPassword(String loginPassword){
+		this.loginPassword = loginPassword;
 	}
 
-	public int getId(){
-		return id;
+	public String getUserName(){
+		return userName;
 	}
-	public void setId(int id){
-		this.id = id;
+	public void setUserName(String userName){
+		this.userName = userName;
 	}
+
+	public boolean getLoginFlg(){
+		return loginFlg;
+	}
+	public void setLoginFlg(boolean loginFlg){
+		this.loginFlg = loginFlg;
+	}
+
 }

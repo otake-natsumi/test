@@ -77,8 +77,6 @@
 		</div>
 	</div>
 
-	<div id="footer">
-		<div id="pr"></div>
-	</div>
+	<div id="footer"></div>
 </body>
 </html>

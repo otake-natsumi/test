@@ -12,6 +12,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="GoHomeAction"/>
 			<item value="getBuyItemInfo"/>
 			<item value="home.jsp"/>
 			<item value="com.internousdev.ecsite"/>
@@ -19,7 +20,6 @@
 			<item value="user_buy_item_transaction"/>
 			<item value="buyItemInfo"/>
 			<item value="buyItemeInfo"/>
-			<item value="item_name,item_price,item_stock"/>
 		</list>
 		<list key="replacehistory">
 			<item value="com.internousdev.template.action"/>

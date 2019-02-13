@@ -44,10 +44,12 @@
 			height: 500px;
 			text-align: center;
 		}
+
 		#footer{
 			width: 100%;
 			height: 80px;
 			background-color: black;
+			clear: both;
 		}
 		#text-link{
 			display: inline-block;
@@ -67,16 +69,16 @@
 		<div>
 			<h3>商品を購入する際はログインをお願いします。</h3>
 			<s:form  action="LoginAction">
-				<s:textfield name="loginUserId" />
-				<s:password name="loginPassword" />
+				<s:textfield name="loginUserId" placeholder="loginUserId" />
+				<s:password name="loginPassword" placeholder="loginPassword" />
 				<s:submit value="ログイン" />
 			</s:form>
 			<br>
 			<div id="text-link">
 				<p>新規ユーザー登録は
-					<a href='<s:uri action="UserCreateAction" />'>こちら</a></p>
+					<a href='<s:url action="UserCreateAction" />'>こちら</a></p>
 				<p>Homeへ戻るに場合は
-					<a href='<s:uri action="GoHomeAction" />'>こちら</a></p>
+					<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 			</div>
 		</div>
 	</div>
