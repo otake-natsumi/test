@@ -23,7 +23,7 @@
 			<p>UserCreate</p>
 		</div>
 		<div>
-			<s:if test="errorMassage !="">
+			<s:if test="errorMassage !=''">
 				<s:property value="errorMassage" escape="false" />
 			</s:if>
 			<table>
@@ -33,7 +33,7 @@
 						<td><input type="text" name="loginUserId" value="" /></td>
 					</tr>
 					<tr>
-						<td><label>ログインPASS：</label>
+						<td><label>ログインPASS：</label></td>
 						<td><input type="text" name="loginPassword" value="" /></td>
 					</tr>
 					<tr>
