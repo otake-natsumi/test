@@ -12,14 +12,14 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="box"/>
+			<item value="LoginAction_0"/>
+			<item value="right"/>
+			<item value="style"/>
+			<item value="text-center"/>
 			<item value="GoHomeAction"/>
 			<item value="getBuyItemInfo"/>
 			<item value="home.jsp"/>
-			<item value="com.internousdev.ecsite"/>
-			<item value="MyPageDAO"/>
-			<item value="user_buy_item_transaction"/>
-			<item value="buyItemInfo"/>
-			<item value="buyItemeInfo"/>
 		</list>
 		<list key="replacehistory">
 			<item value="com.internousdev.template.action"/>

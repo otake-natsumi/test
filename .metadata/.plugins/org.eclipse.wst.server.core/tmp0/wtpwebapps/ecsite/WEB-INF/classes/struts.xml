@@ -10,7 +10,7 @@
 
 		<!-- HomeAction -->
 			<action name="HomeAction" class="com.internousdev.ecsite.action.HomeAction" method="execute">
-				<result name="success">home.jsp</result>
+				<result name="success">buyItem.jsp</result>
 				<result name="login">login.jsp</result>
 			</action>
 
@@ -21,10 +21,15 @@
 			</action>
 
 		<!-- GoHome Action -->
-			<action name="GoHome Action" class="com.internousdev.ecsite.action.GoLoginAction" method="execute">
+			<action name="GoHomeAction" class="com.internousdev.ecsite.action.GoHomeAction" method="execute">
 				<result name="success">home.jsp</result>
 			</action>
 
+		<!-- GUserCreateAction -->
+			<action name="UserCreateAction" class="com.internousdev.ecsite.action.UserCreateAction" method="execute">
+				<result name="success">UserCreateConfirm.jsp</result>
+				<result name="error">userCreate.jsp</result>
+			</action>
 
 
 	</package>

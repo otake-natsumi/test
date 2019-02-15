@@ -65,6 +65,7 @@
 				<s:submit value="商品購入"/>
 			</s:form>
 			<s:if test="#session.id !=null">
+
 				<p>ログアウトする場合は
 					<a href='<s:url action="LogoutAction" />'>こちらから</a>
 				</p>

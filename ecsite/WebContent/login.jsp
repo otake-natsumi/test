@@ -26,34 +26,39 @@
 			background: #fff;
 		}
 
-	/* ==========TAG LAYOUT==========*/
+		/* ==========ID LAYPUT========== */
 		#top{
 			width: 780px;
 			margin: 30px auto;
 			border: 1px solid #333;
 		}
-
 		#header{
 			width: 100%;
 			height: 80px;
 			background-color: black;
 		}
-
 		#main{
 			width: 100%;
 			height: 500px;
 			text-align: center;
 		}
-
 		#footer{
 			width: 100%;
 			height: 80px;
 			background-color: black;
 			clear: both;
 		}
-		#text-link{
-			display: inline-block;
-			text-align: right;
+		.test{
+		    margin: 0 auto;
+		    width: 100%;
+		    height: 100px;
+            text-align: center;
+		}
+
+		.form{
+		   /*margin: 0 auto;*/
+		   width: 100%;
+		  	dsplay: block;
 		}
 	</style>
 
@@ -66,20 +71,25 @@
 		<div id="top">
 			<p>Login</p>
 		</div>
-		<div>
+		<div class="test">
 			<h3>商品を購入する際はログインをお願いします。</h3>
-			<s:form  action="LoginAction">
+			<s:form action="LoginAction" class="form" theme="simple">
+			<div>
 				<s:textfield name="loginUserId" placeholder="loginUserId" />
+			</div>
+			<div>
 				<s:password name="loginPassword" placeholder="loginPassword" />
+			</div>
 				<s:submit value="ログイン" />
 			</s:form>
 			<br>
-			<div id="text-link">
-				<p>新規ユーザー登録は
-					<a href='<s:url action="UserCreateAction" />'>こちら</a></p>
-				<p>Homeへ戻るに場合は
-					<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
-			</div>
+		</div>
+
+		<div id="text-link">
+			<p>新規ユーザー登録は
+				<a href='<s:url action="UserCreateAction" />'>こちら</a></p>
+			<p>Homeへ戻るに場合は
+				<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 		</div>
 	</div>
 
