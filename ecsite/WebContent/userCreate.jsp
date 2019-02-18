@@ -51,6 +51,8 @@
 		height: 80px;
 		background-color: black;
 		clear: both;
+		position: absolute;
+		bottom: 0;
 	}
 	</style>
 
@@ -67,7 +69,7 @@
 				<s:property value="errorMassage" escape="false" />
 			</s:if>
 			<table>
-				<s:form action="UserCreateConfirnAction">
+				<s:form action="UserCreateConfirmAction">
 					<tr>
 						<td><label>ログインID：</label></td>
 						<td><input type="text" name="loginUserId" value="" /></td>
