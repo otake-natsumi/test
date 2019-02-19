@@ -9,25 +9,25 @@ import com.internousdev.ecsite.dao.UserCreateCompleteDAO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class UserCreateCompleteAction extends ActionSupport implements SessionAware{
-	private String loginUserID;
+	private String loginUserId;
 	private String loginPassword;
-	private String uesrName;
+	private String userName;
 	public Map<String, Object> session;
 	private UserCreateCompleteDAO userCreateCompleteDAO = new UserCreateCompleteDAO();
 
 	public String execute() throws SQLException{
-		userCreateCompleteDAO.cerateUser(session.get("loginUserID").toString(),
+		userCreateCompleteDAO.cerateUser(session.get("loginUserId").toString(),
 			session.get("loginPassword").toString(),
-			session.get("uesrName").toString());
+			session.get("userName").toString());
 
 		String result = SUCCESS;
 		return result;
 	}
-	public String getLoginUserID(){
-		return loginUserID;
+	public String getLoginUserId(){
+		return loginUserId;
 	}
-	public void setLoginUserID(String loginUserID){
-		this.loginUserID = loginUserID;
+	public void setLoginUserId(String loginUserId){
+		this.loginUserId = loginUserId;
 	}
 
 	public String getLoginPassword(){
@@ -37,11 +37,11 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 		this.loginPassword = loginPassword;
 	}
 
-	public String getUesrName(){
-		return uesrName;
+	public String getUserName(){
+		return userName;
 	}
-	public void setUesrName(String uesrName){
-		this.uesrName = uesrName;
+	public void setUserName(String userName){
+		this.userName = userName;
 	}
 
 	public Map<String, Object> getSession(){

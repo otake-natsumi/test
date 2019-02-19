@@ -29,7 +29,7 @@
 		margin: 0 auto;
 	}
 
-	/* ==========TAG LAYOUT========== */
+	/* ==========ID LAYOUT========== */
 	#top{
 		width: 780px;
 		margin: 30px auto;
@@ -48,7 +48,7 @@
 	}
 	#footer{
 		width: 100%;
-		height: 500px;
+		height: 80px;
 		background-color: black;
 	}
 	</style>

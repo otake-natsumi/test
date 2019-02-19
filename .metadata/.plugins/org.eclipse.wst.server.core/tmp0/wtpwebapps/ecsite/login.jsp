@@ -26,7 +26,7 @@
 			background: #fff;
 		}
 
-		/* ==========ID LAYPUT========== */
+		/* ==========ID LAYOUT========== */
 		#top{
 			width: 780px;
 			margin: 30px auto;
