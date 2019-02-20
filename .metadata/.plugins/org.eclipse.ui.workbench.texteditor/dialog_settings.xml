@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="table" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="table"/>
+			<item value="wwFormTable"/>
 			<item value="box"/>
 			<item value="LoginAction_0"/>
 			<item value="right"/>
 			<item value="style"/>
 			<item value="text-center"/>
 			<item value="GoHomeAction"/>
-			<item value="getBuyItemInfo"/>
-			<item value="home.jsp"/>
 		</list>
 		<list key="replacehistory">
 			<item value="com.internousdev.template.action"/>
@@ -30,7 +30,7 @@
 		<item value="612" key="DIALOG_WIDTH"/>
 		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
 		<item value="418" key="DIALOG_HEIGHT"/>
-		<item value="-459" key="DIALOG_X_ORIGIN"/>
-		<item value="284" key="DIALOG_Y_ORIGIN"/>
+		<item value="750" key="DIALOG_X_ORIGIN"/>
+		<item value="565" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

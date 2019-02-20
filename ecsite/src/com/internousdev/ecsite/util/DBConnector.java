@@ -9,7 +9,7 @@ public class DBConnector {
 	private static String url="jdbc:mysql://localhost/ecsite";
 
 	private static String user = "root";
-	private static String password = "mysql723";
+	private static String password = "mysql";
 
 	public Connection getConnection(){
 		Connection con = null;
