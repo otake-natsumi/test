@@ -1,0 +1,21 @@
+package com.internousdev.ecsite.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.internousdev.ecsite.dto.MayPageDTO;
+import com.internousdev.ecsite.util.DBConnrctor;
+
+public class MayPageDAO {
+	private DBConnector dbConnector = DBConnector();
+	private Connection connection = dbConnection.getConnection();
+
+	public ArrayList<MyPageDTO> getMyPageUserInfo(String item_transaction_id, String user_master_id) throws SQLException{
+		ArrayList<MyPageDTO> myPageDTO = new ArrayList<MyPageDTO>();
+		String sql = "SELECT ubit.id, iit.item_name, ubit,total_price, ubit.total_count, ubit.pay, ubit.insert_date"
+	}
+
+}
