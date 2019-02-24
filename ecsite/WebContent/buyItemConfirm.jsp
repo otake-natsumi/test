@@ -8,9 +8,9 @@
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<meta http-equiv="Content-Script-Type" content="text/javascript" />
 	<meta http-equiv="imagetoolbar" content="no" />
-	<meta http-equiv="description" content="" />
-	<meta http-equiv="keywords" content="" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mim.js"></script>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<title>BuyItemConfirm画面</title>
 	<style type="text/css">
 	/* ===========TAG LAYOUT=========== */
@@ -19,14 +19,14 @@
 		padding: 0;
 		line-height: 1.6;
 		letter-spacing: 1px;
-		font-family: Verdana, elvetica, sans-serif;
+		font-family: Verdana, Helvetica, sans-serif;
 		font-size: 12px;
 		color: #333;
-		backgrounf: #fff;
+		background: #fff;
 	}
 	table{
 		text-align: center;
-		margin: auto 0;
+		margin: 0 auto;
 	}
 
 	/* ===========ID LAYOUT=========== */
@@ -48,7 +48,7 @@
 	 .table{
 	 	display:inline-block;
 	 	text-align: center;
-	 	margin: auto 0;
+	 	margin: 0 auto;
 	 	}
 	 #footer{
 	 	width: 100%;

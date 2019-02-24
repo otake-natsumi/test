@@ -25,7 +25,7 @@ public class MyPageDAO {
 					+ "ON"
 						+ "ubit.item_transaction_id = iit.id"
 					+ "WHERE"
-						+ "ubit.item_transaction_id = ? AND ubit.user_id = ?"
+						+ "ubit.item_transaction_id = ? AND ubit.user_master_id = ?"
 					+ "ORDER BY"
 						+ "insert_date DESC";
 	try{
@@ -37,8 +37,8 @@ public class MyPageDAO {
 
 			while(resultSet.next()){
 				MyPageDTO dto = new MyPageDTO();
-				dto.setId(resultSet.getString("item_name"));
-				dto.setItemName(resultSet.getString("total_name"));
+				dto.setId(resultSet.getString("id"));
+				dto.setItemName(resultSet.getString("item_name"));
 				dto.setTotalPrice(resultSet.getString("total_price"));
 				dto.setTotalCount(resultSet.getString("total_count"));
 				dto.setPayment(resultSet.getString("pay"));
@@ -63,8 +63,8 @@ public class MyPageDAO {
 		int result = 0;
 		try{
 			preparedStatement = connection.prepareStatement(sql);
-			preparedStatement.setString(0, item_transaction_id);
-			preparedStatement.setString(0, user_master_id);
+			preparedStatement.setString(1, item_transaction_id);
+			preparedStatement.setString(2, user_master_id);
 			result = preparedStatement.executeUpdate();
 		}catch(SQLException e){
 			e.printStackTrace();

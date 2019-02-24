@@ -1,0 +1,14 @@
+127.0.0.1 - - [25/Feb/2019:07:45:29 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:45:32 +0900] "GET /ecsite/ HTTP/1.1" 200 1651
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:45:40 +0900] "POST /ecsite/HomeAction.action;jsessionid=80EBBDDDB8B7B37F15752C2D876ED52B HTTP/1.1" 200 2223
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:45:52 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 2628
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:45:53 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2539
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:48:12 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2539
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:52:43 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 2628
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:52:45 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2527
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:52:46 +0900] "POST /ecsite/BuyItemConfirmAction HTTP/1.1" 200 3453
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:52:57 +0900] "POST /ecsite/HomeAction HTTP/1.1" 200 2628
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:55:17 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2527
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:55:20 +0900] "POST /ecsite/BuyItemConfirmAction HTTP/1.1" 200 1501
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:55:43 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 2033
+0:0:0:0:0:0:0:1 - - [25/Feb/2019:07:55:52 +0900] "GET /ecsite/GoHomeAction.action HTTP/1.1" 200 1727
